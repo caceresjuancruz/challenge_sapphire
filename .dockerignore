@@ -1,0 +1,51 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Test files
+tests
+coverage
+jest.config.js
+jest.setup.ts
+babel.config.js
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Documentation
+*.md
+
+# Config files not needed in container
+.eslintrc.cjs
+.eslintignore
+.prettierrc
+.prettierignore
+.editorconfig
+.lintstagedrc.json
+commitlint.config.js
+.husky
+
+# Docker files
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Environment files
+.env*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

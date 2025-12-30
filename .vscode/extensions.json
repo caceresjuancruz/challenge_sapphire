@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-typescript-next",
+    "orta.vscode-jest",
+    "mikestead.dotenv",
+    "redhat.vscode-yaml",
+    "editorconfig.editorconfig",
+    "streetsidesoftware.code-spell-checker",
+    "christian-kohler.path-intellisense",
+    "humao.rest-client",
+    "ms-azuretools.vscode-docker"
+  ],
+  "unwantedRecommendations": []
+}
