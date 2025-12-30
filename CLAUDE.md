@@ -910,3 +910,53 @@ pnpm docker:dev      # Development compose
 |-----------|------|---------|-------------|
 | page | number | 1 | Page number |
 | limit | number | 10 | Items per page (max 100) |
+
+---
+
+## Changelog por Carpeta
+
+Cada carpeta del proyecto debe mantener un archivo `CHANGELOG.md` que documente los cambios realizados.
+
+### Formato
+
+Basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.0/):
+
+```markdown
+# Changelog - [Nombre Carpeta]
+
+## [Unreleased]
+
+### Added
+- Nuevas funcionalidades
+
+### Changed
+- Cambios en funcionalidades existentes
+
+### Fixed
+- Corrección de bugs
+
+### Removed
+- Funcionalidades eliminadas
+```
+
+### Ubicaciones
+
+| Carpeta | Archivo |
+|---------|---------|
+| `src/config/` | `CHANGELOG.md` |
+| `src/controllers/` | `CHANGELOG.md` |
+| `src/events/` | `CHANGELOG.md` |
+| `src/middleware/` | `CHANGELOG.md` |
+| `src/models/` | `CHANGELOG.md` |
+| `src/repositories/` | `CHANGELOG.md` |
+| `src/routes/` | `CHANGELOG.md` |
+| `src/services/` | `CHANGELOG.md` |
+| `src/utils/` | `CHANGELOG.md` |
+| `src/validators/` | `CHANGELOG.md` |
+
+### Reglas
+
+1. **Actualizar al hacer cambios** - Cada PR/commit debe actualizar el CHANGELOG correspondiente
+2. **Usar categorías correctas** - Added, Changed, Fixed, Removed
+3. **Ser conciso** - Descripciones breves pero claras
+4. **Ordenar cronológicamente** - Lo más reciente arriba
